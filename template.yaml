@@ -66,6 +66,9 @@ spec:
           - github.com
         description: This is ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
+        secret:
+          - key1: value1
+            key2: value2
 
     - id: register
       name: Register
