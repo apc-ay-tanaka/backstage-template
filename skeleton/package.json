@@ -1,5 +1,5 @@
 {
-  "name": "sample_t3app",
+  "name": "${{ values.component_id }}",
   "version": "0.1.0",
   "private": true,
   "type": "module",
