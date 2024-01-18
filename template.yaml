@@ -1,12 +1,13 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: create-react-app-template
-  title: Create React App Template
-  description: Create a new CRA website project
+  name: create-t3-stack-template
+  title: Create T3 Stack Template
+  description: Create a new website project
   tags:
     - react
     - cra
+    - t3stack
 spec:
   owner: user:guest
   type: website
