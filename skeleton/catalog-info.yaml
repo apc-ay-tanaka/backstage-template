@@ -8,7 +8,7 @@ metadata:
   annotations:
     github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
     backstage.io/techdocs-ref: dir:.
-    backstage.io/kubernetes-namespace: 'flask-test'
+    backstage.io/kubernetes-label-selector: 'app=flask-sample'
 spec:
   type: service
   lifecycle: experimental
